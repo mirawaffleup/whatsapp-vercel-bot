@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "functions": {
+    "api/webhook.js": { "runtime": "nodejs20.x" }
+  },
+  "routes": [
+    { "src": "/api/webhook", "dest": "/api/webhook.js" }
+  ]
+}
